@@ -30,12 +30,11 @@ export function Home(){
             <div className='download'>
 
                 <div className='button-container'>
-                    <a href='/pdf/cv.pdf' className='button'
-                    download>
+                <a href={`${process.env.PUBLIC_URL}/pdf/cv.pdf`} download className='button'>
                     
                     <p>CV</p>
                     </a>
-                    <a href='/pdf/eksaminspapir.pdf' download className='button' >
+                    <a href={`${process.env.PUBLIC_URL}/pdf/eksaminspapir.pdf`} download className='button' >
                     <p>Eksaminspapir</p>
                     </a>
                 </div>
