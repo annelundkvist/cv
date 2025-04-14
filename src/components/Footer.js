@@ -10,12 +10,11 @@ export function Footer(){
                 <h3>Download CV og eksaminspapir</h3>
 
                 <div className='button-container'>
-                    <a href='/pdf/cv.pdf' className='button'
-                    download>
+                    <a href='pdf/cv.pdf' className='button' download>
                     
                     <p>CV</p>
                     </a>
-                    <a href='/pdf/eksaminspapir.pdf' download className='button' >
+                    <a href='pdf/eksaminspapir.pdf' download className='button' >
                     <p>Eksaminspapir</p>
                     </a>
                 </div>
