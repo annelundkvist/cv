@@ -13,7 +13,7 @@ const closeMenu = () => setClick(false)
 return (
     <div className='header'>
         <nav className='navbar'>
-            <a href='/' className='logo'>
+            <a href="#home" className='logo'>
                <h1>Anne Lundkvist</h1>
             </a>
             <div className='hamburger' onClick={handleClick}>

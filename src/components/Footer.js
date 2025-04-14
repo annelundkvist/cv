@@ -7,15 +7,15 @@ export function Footer(){
         <div className='footer' id='footer'>
 
             <div className='download'>
-                <h3>Download CV og eksaminspapir</h3>
+                <h3>Download CV og eksamenspapir</h3>
 
                 <div className='button-container'>
                     <a href={`${process.env.PUBLIC_URL}/pdf/cv.pdf`} download className='button'>
                     
                     <p>CV</p>
                     </a>
-                    <a href={`${process.env.PUBLIC_URL}/pdf/eksaminspapir.pdf`} download className='button' >
-                    <p>Eksaminspapir</p>
+                    <a href={`${process.env.PUBLIC_URL}/pdf/eksamenspapir.pdf`} download className='button' >
+                    <p>Eksamenspapir</p>
                     </a>
                 </div>
             </div>

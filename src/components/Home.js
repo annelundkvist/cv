@@ -4,7 +4,7 @@ import '../styles/Home.css'
 
 export function Home(){
     return(
-        <div className={"Home scroll-offset"}>
+        <div className={"Home scroll-offset"} id="home">
             
             <div className={"info"}>
             <img src={profile} alt="profile" />
@@ -34,8 +34,8 @@ export function Home(){
                     
                     <p>CV</p>
                     </a>
-                    <a href={`${process.env.PUBLIC_URL}/pdf/eksaminspapir.pdf`} download className='button' >
-                    <p>Eksaminspapir</p>
+                    <a href={`${process.env.PUBLIC_URL}/pdf/eksamenspapir.pdf`} download className='button' >
+                    <p>Eksamenspapir</p>
                     </a>
                 </div>
             </div>
