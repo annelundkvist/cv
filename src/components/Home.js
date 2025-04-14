@@ -13,7 +13,7 @@ export function Home(){
             </div>
             <div className='description'>
             
-            <h2> Engageret, målrettet og nysgerig sundhedsteknologi ingeniør søger arbejde</h2>
+            <h2> Engageret, målrettet og nysgerrig sundhedsteknologi ingeniør søger arbejde</h2>
 
             <p> Som nyuddannet diplomingeniør i Sundhedsteknologi har jeg en stærk interesse for både softwareudvikling og user experience, og jeg brænder for at skabe digitale løsninger, hvor teknologi og brugerbehov forenes. 
             <br /> <br />Gennem min uddannelse og praktiske erfaring har jeg opbygget solide kompetencer inden for både frontend- og backendudvikling, samt UX-metoder
