@@ -23,7 +23,7 @@ export function Footer(){
             <div className='info'>
 
             <p> Anne Lundkvist</p>
-            <p> Aarhus 8000</p>
+            <p> 8000 Aarhus C</p>
 
             <div className='contact-item'>
                     <a href="mailto:anneyalundkvist@gmail.com">
