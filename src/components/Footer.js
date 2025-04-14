@@ -11,12 +11,11 @@ export function Footer(){
 
                 <div className='button-container'>
                     <a href='/pdf/cv.pdf' className='button'
-                    target="_blank"
-                    rel="noopener noreferrer">
+                    download>
+                    
                     <p>CV</p>
                     </a>
-                    <a href='/pdf/eksaminspapir.pdf' className='button' target="_blank"
-                    rel="noopener noreferrer">
+                    <a href='/pdf/eksaminspapir.pdf' download className='button' >
                     <p>Eksaminspapir</p>
                     </a>
                 </div>
