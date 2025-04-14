@@ -1,0 +1,109 @@
+.Home {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Home .imageContainer {
+ display: flex;
+ justify-self: center;
+ margin: 15px;
+}
+
+.Home img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid #f7f1be;
+    border-radius: 10px;
+}
+
+.Home h2 {
+    letter-spacing: 3px;
+}
+
+.Home .description {
+    padding: 1rem;
+    padding-right: 100px;
+}
+
+.Home p{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(48, 69, 51);;
+}
+
+
+.Home .download {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.Home a{
+    text-decoration: none;
+    outline: none;
+    border-bottom: none;
+}
+
+.Home .button-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Home .button-container .button {
+    background-color: rgb(47, 97, 50);
+    width: 150px;
+    padding: 10px 40px;
+    margin: 10px 20px;
+    border-radius: 80px;
+}
+
+.Home .button-container p {
+    color: #f6cdf1;
+    font-weight: 900;
+    font-size: 15px;
+    
+}
+
+.Home .button-container .button:hover {
+    background-color: rgb(53, 111, 57);
+}
+
+
+
+@media screen and (max-width:940px) {
+    .Home {
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+
+    }
+
+    .Home .description {
+        padding: 10px;
+    }
+
+    .Home .download{
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .Home .button-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}

@@ -1,0 +1,61 @@
+.about {
+    margin: 10px 50px;
+}
+
+.about .download {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.about h3 {
+    font-size: 25px;
+}
+
+.about p{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(48, 69, 51);
+}
+
+.about a{
+    text-decoration: none;
+    outline: none;
+    border-bottom: none;
+}
+
+.about .button-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.about .button-container .button {
+    background-color: rgb(47, 97, 50);
+    width: 150px;
+    padding: 10px 40px;
+    margin: 10px 20px;
+    border-radius: 80px;
+}
+
+.about .button-container p {
+    color: #f6cdf1;
+    font-weight: 900;
+    font-size: 15px;
+    
+}
+
+.about .button-container .button:hover {
+    background-color: rgb(53, 111, 57);
+}
+
+@media screen and (max-width:940px) {
+
+
+.about .button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+}

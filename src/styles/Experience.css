@@ -1,0 +1,115 @@
+.experience {
+    margin-top: 100px;
+}
+
+.experience h2 {
+    text-align: center;
+}
+
+.experience .job {
+    margin:50px 150px;
+    background-color: rgba(246, 205, 241,0.4);
+    padding: 20px 100px;
+    border-radius: 20px;
+    
+
+}
+
+.experience .job .jobTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience .Up{
+    width: 28px;
+    margin: 0;
+    height: auto;
+    padding: 0 10px;
+    
+}
+
+.experience .Down{
+    width:28px;
+    margin: 0;
+    height: auto;
+    padding: 0 10px;
+}
+
+
+.experience p{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(40, 97, 50);
+}
+
+.experience li{
+    text-indent: 200px;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgba(40, 97, 50);
+    padding: 8px 0;
+}
+
+.experience .job2-container {
+    margin:50px 150px;
+    background-color: rgba(246, 205, 241,0.4);
+    padding: 20px 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+
+}
+
+.experience .job2-container .line2 {
+    display: block;
+    width: 3px;
+    height: 100px;
+    margin: 5px auto;
+    border: 5px;
+    border-radius: 12px;
+    background-color: rgba(40, 97, 50, 0.8);
+  }
+
+
+
+@media screen and (max-width:940px) {
+    .experience {
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        margin-top: 0;
+    }
+
+
+    .experience .job {
+        margin:10px;
+        padding: 20px 20px;
+    }
+
+    .experience li{
+        text-indent: 0;
+        
+    }
+
+    .experience .job .jobTitle {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+
+.experience .job2-container .line2 {
+    display: none;
+  }
+
+
+.experience .job2-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+  }
+
+    
+}
