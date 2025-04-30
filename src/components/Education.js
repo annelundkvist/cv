@@ -26,10 +26,10 @@ export function Education(){
                 viewport={{ once: true, amount: 0.2 }}
             >
        
-            <h2> Uddanelse</h2>
+            <h2> Uddannelse</h2>
             <div className ='education-row'>
             <div className = 'educationitem'>
-                <h3> Aarhus Universitet – Diplomingeniør Sundhedsteknolgi </h3>
+                <h3> Aarhus Universitet – Diplomingeniør i Sundhedsteknologi </h3>
                  <p>Sep, 2021 – Jan 2025</p>
                  <p>
                  Gennem uddannelsen har jeg haft fokus på at udvikle færdigheder inden for softwareudvikling, projektstyring og brugeroplevelse (UX). 
@@ -37,7 +37,7 @@ export function Education(){
                  Vi gennemgik hele processen fra idé og prototype til en fungerende app, hvilket gav praktisk erfaring med både udvikling og brugercentreret design.
                  </p>
 
-                 <p> Prototypen er dannet i <strong>Figma</strong> og appen er udvilket med en frontend i <strong>React Native</strong> og en backend i <strong>Node.js</strong> begge i <strong>Typescript</strong></p>
+                 <p> Prototypen er dannet i <strong>Figma</strong>, og appen er udviklet med en frontend i <strong>React Native</strong> og en backend i <strong>Node.js</strong> begge i <strong>TypeScript</strong></p>
 
                 <div className='trivselsskema'>
                 <img src={Skema} alt="skema" />
@@ -48,10 +48,10 @@ export function Education(){
             </div>
             
             <div className = 'educationitem'>
-                <h3> Aarhus Universitet – Matematik Økonomi</h3>
+                <h3> Aarhus Universitet – Matematik-Økonomi</h3>
                 <p>Sep, 2019 – Jan 2020</p>
             
-                <h3> Århus Katedralskole - Gymnaise STX, </h3>
+                <h3> Århus Katedralskole - Gymnasie STX, </h3>
                 <p>Sep, 2015 – Jun 2018</p>
             </div>
             </div>

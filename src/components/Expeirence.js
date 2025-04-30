@@ -31,7 +31,7 @@ export function Experience(){
 
     return(
         <div className={"experience scroll-offset"} id={"experience"}>
-            <h2> Relevant Erfaring</h2>
+            <h2> Relevant erfaring</h2>
             <motion.div
                 className="job"
                 variants={fadeInUp}
@@ -56,8 +56,8 @@ export function Experience(){
                                 <p>Gennem denne rolle har jeg fået erfaring med følgende teknologier:</p>
                                 
                                     <li>React</li>
-                                    <li>Node.Js</li>
-                                    <li>Typescript</li>
+                                    <li>Node.js</li>
+                                    <li>TypeScript</li>
                                     <li>Firebase</li>
                                     <li>Umbraco</li>
                             
@@ -94,7 +94,7 @@ export function Experience(){
 
                 <p> På 5. semester var jeg i praktik hos Sterilflow hvor jeg var tilknyttet Product Owneren. </p>
                 <p>Her har jeg arbejdet nært med Scrum som arbejdsmetode og formulering af krav og behov gennem kommunikation med interessenter </p>
-                <p> ved besøg på regions hospitalerne og med diveres stakeholders. </p>
+                <p> ved besøg på regions hospitalerne og med diverse stakeholders. </p>
                 <p>Under praktikforløbet deltog jeg i kurset: Begrebs- og informationmodellering </p>
                 
                 <p>Praktikforløbet har bidraget til følgende kompetencer:</p>
@@ -102,7 +102,7 @@ export function Experience(){
                     <li> Scrum </li>
                     <li> Kommunikation på tværs af faggrupper </li>
                     <li> Arbejde med Design Thinking </li>
-                    <li> Behovsafklaing </li>
+                    <li> Behovsafklaring </li>
                     <li> Forståelse af at arbejde i en større organisation </li>
                 
                     </div>
@@ -118,14 +118,14 @@ export function Experience(){
                 viewport={{ once: true, amount: 0.2 }}
             >
                 <div className="job2">
-                    <h3> Barnepige, Tilkalder Vikar </h3>
+                    <h3> Barnepige, Tilkaldervikar </h3>
                     <p> Jun 2021 – Sep 2023 </p>
                 </div>
 
                 <span className='line2'/>
 
                 <div className="job2">
-                    <h3> Service Assistenet - Kvickly </h3>
+                    <h3> Serviceassistent - Kvickly </h3>
                     <p> Okt 2018 – Jul 2021 </p>
                 </div>
             </motion.div>

@@ -29,34 +29,31 @@ export function Skills(){
 
             <div className= 'skill'>
              <h3>Programmering og teknologier</h3>
-             <p>  Erfaring med udvikling i programmeringssprog som <strong> 
-             C#, Kotlin, TypeScript og JavaScript </strong>. Behersker frameworks som <strong> 
-             React, React Native og Node.js 
-             </strong>til udvikling af web- og mobilapplikationer.</p>
+             <p>  Erfaring med udvikling i programmeringssprog som <strong>C#, Kotlin, TypeScript og JavaScript</strong>. Behersker frameworks som <strong> 
+             React, React Native og Node.js</strong> til udvikling af web- og mobilapplikationer.</p>
 
              <span className='line'></span>
             </div>
 
             <div className= 'skill'>
              <h3>Produktudvikling</h3>
-             <p>  Erfaring med hele udviklingsprocessen fra idé til lancering. <br/> Agilt og iterativt arbejde, <strong>
-                Scrum </strong></p>
+             <p>  Erfaring med hele udviklingsprocessen fra idé til lancering. <br/>Agilt og iterativt arbejde, <strong>Scrum</strong></p>
 
                 <span className='line'></span>
             </div>
 
             <div className= 'skill'>
              <h3>UX-research & brugercentreret design</h3>
-             <p>  Erfaring med <strong>brugerundersøgelser, interviews og usability test </strong></p>
-             <p> Metodisk tilgang via <strong> Design Thinking </strong></p>
+             <p>  Erfaring med <strong>brugerundersøgelser, interviews og usabilitytests </strong></p>
+             <p> Metodisk tilgang via <strong>Design Thinking</strong></p>
 
              <span className='line'></span>
             </div>
 
             <div className= 'skill'>
-             <h3> Wireframing og Prototyping</h3>
+             <h3> Wireframing og prototyping</h3>
              <p>  Arbejder sikkert i <strong> Figma</strong> til design af intuitive grænseflader.</p>
-             <p> Derudover erfarring med <strong>Miro og Canva </strong></p>
+             <p> Derudover erfaring med <strong>Miro og Canva</strong></p>
 
              <span className='line'></span>
              
@@ -64,7 +61,7 @@ export function Skills(){
 
             <div className= 'skill'>
                 <h3> Samarbejde & kommunikation</h3>
-                <p> Jeg har fået godt erfaring med at arbejde i tværfaglige teams og formidle tekniske løsninger til forskellige interessenter.</p>
+                <p> Jeg har fået god erfaring med at arbejde i tværfaglige teams og formidle tekniske løsninger til forskellige interessenter.</p>
             
                 <span className='line'></span>
 
